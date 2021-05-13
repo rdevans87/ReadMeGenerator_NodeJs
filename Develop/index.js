@@ -1,64 +1,85 @@
+//Set up package dependency installation 
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js') 
 
-// TODO: Create an array of questions for user input
+// Created an array of questions for user input
 const questions = [
-{
-type: 'input',
-name: 'name',
-message: 'Would is the title of your project?',
-
+{   
+    // input for title of project
+    type: 'input',
+    name: 'name',
+    message: 'What is the title of your project?',
+},
+{   
+    // input for readme section
+    type: 'input',
+    name: 'description ',
+    message: 'Write a detailed description of your project.',
 
 },
 {
-    type: '',
-    name: '',
-    message: '',
-
+    type: 'input',
+    name: 'installation',
+    message: 'What are the steps required to install your project?',
+    
 },
 {
-    type: '',
-    name: '',
+    type: 'input',
+    name: 'usage',
+    message: 'What is the primary usage of this project?',
+    
+},
+{
+    type: 'list',
+    name: 'license',
+    message: 'Please choose the appropriate license for your project.',
+    Choice: ('MIT', 'APACHE', 'GNU','ISC', 'Mozilla')
+    
+},
+{
+    type: 'input',
+    name: 'contributing',
+    message: 'Please add instructions for contributing to this project.',
+    
+},
+{
+    type: 'input',
+    name: 'tests',
+    message: 'What test have you to your project',
+    
+},
+{
+    type: 'input',
+    name: 'questions',
     message: '',
     
 },
 {
-    type: '',
-    name: '',
-    message: '',
+    type: 'input',
+    name: 'contents',
+    message: 'Would you like add a table of contents for this project?',
+
+
+},
+
+{
+    type: 'input',
+    name: 'github',
+    message: 'What is your username on GitHub?',
     
 },
 {
-    type: '',
-    name: '',
-    message: '',
+    type: 'input',
+    name: 'email',
+    message: 'What is your registered email address',
     
 },
-{
-    type: '',
-    name: '',
-    message: '',
-    
-},
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ];
 
 
-// with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
@@ -69,4 +90,8 @@ function writeToFile(fileName, data) {}
 // Function call to initialize app
 init();
 
+
+
+//README.md criteria title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+// add github username and licence
 
