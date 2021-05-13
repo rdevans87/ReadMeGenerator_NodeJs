@@ -21,7 +21,7 @@ const questions = [
 {
     type: 'input',
     name: 'installation',
-    message: 'What are the steps required to install your project?',
+    message: 'What are the steps and required packages to install your project?',
     
 },
 {
@@ -79,16 +79,24 @@ const questions = [
 
 
 //Created a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Include packages needed for this application
-
+function writeToFile(fileName, data) {
+    fs.writeToFile(fileName, data, (err) => {
+        console.log(err)
+    })
+};
 
 // Function call to initialize app
-init();
+function init() {
+    inquirer.prompt(questions)
+    .then((responses) => {
+        console.log(responses)
+        const readMe = writeToFile(responses)
+        writeToFile('README.md', readMe)
+ 
+    })
+
+};
 
 
-
-//README.md criteria title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-// add github username and licence
+init(generateMarkdown);
 
