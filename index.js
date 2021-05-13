@@ -3,9 +3,6 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js') 
 
-//README.md criteria title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-// add github username and licence
-
 // Created an array of questions for user input
 const questions = [
 {   
@@ -82,11 +79,7 @@ const questions = [
 
 
 //Created a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeToFile(fileName, data, (err) => {
-        console.log(err)
-    })
-};
+function writeToFile(fileName, data) {}
 
 // TODO: Include packages needed for this application
 
@@ -96,5 +89,6 @@ init();
 
 
 
-
+//README.md criteria title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+// add github username and licence
 
