@@ -1,8 +1,8 @@
-# A Good ReadMe Generator
+# A good readme Generator
   ![License Badge](https://img.shields.io/badge/License-mit-blueviolet)
 
   ## Description
-  Describe your project in 3-4 sentences
+  describe project in 3-4 sentences
 
   ## Table of Contents
 
@@ -15,23 +15,23 @@
   
   ## Installation
 
-  1.) run npm i inquirer to install dependencies  2.) run node index.js to start application
+  1.) run npm i to install dependencies  2.) run node index.js to invoke application
 
   ## Usage
 
-  Please refer to the readme.md file at the root of this repository for a walkthrough video
+  Please refer to readme file at the root of this repository to watch a walkthrough video 
 
   ## Credits
 
-  Sole developer
+  Sole Developer
   
   ## Contributing
   
-  Fork this repo and install node.js to start contributing
+  Fork this repository and install node.js to begin contributing
 
   ## Tests
 
-  command line test from integrated terminal
+  command line tests with integreated terminal
 
   ## Questions
 
