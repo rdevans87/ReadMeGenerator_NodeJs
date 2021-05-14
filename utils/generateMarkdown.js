@@ -2,11 +2,10 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
  if (license === 'none') {
-
-
-
+  return ''
+ } else {
+  return `![License Badge](https://img.shields.io/badge/License-${license}-blueviolet)`
  }
-
 
 }
 
@@ -14,8 +13,8 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
 if (license === 'none') {
-
-
+ return ''
+} else {
 
 }
 
