@@ -91,7 +91,7 @@ function init() {
     .then((responses) => {
         console.log(responses)
         const readMe = generateMarkdown(responses)
-        writeToFile('sampleREADME.md', readMe)
+        writeToFile('README.md', readMe)
         console.log("README generated")
  
     });

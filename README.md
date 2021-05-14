@@ -49,11 +49,16 @@ node index.js
 
 * Each question will pertain to a specific section of the `README` file you're creating. The questions for this application are located in the `index.js` file of this repository. 
 
-* Hit `Enter` after answering each question to continue to the next prompt. Once you've completed all the prompts, you'll see a `README.md` file generated 
+* Hit `Enter` after answering each question to continue to the next prompt. When all the prompts are completed, a `README.md` file will automatically generate inside the explorer window of your project's repository.  
 
-integrated terminal 
+* Open the README file to view the results. You should now have a high-quality `README.md` file to use as a template for all your projects. 
+
+* Your `README.md` should be written in standard `Markdown` format with the title of your project listed at the top of the page. Your README file should also contain a `table of contents` that corresponds to the headers for each section: Description, Installation, Usage, Credits, Contributing, Tests, Questions, License.
+
+* A `License Badge` should be displayed below the title of your project matching the open-source license that you selected from the prompt as well as include all the user input that was answered for each section.
 
 A video demonstrating the applications functionality available here:  
+
 
 
 ## Resources

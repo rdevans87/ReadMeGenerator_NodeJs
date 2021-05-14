@@ -80,7 +80,7 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
 
-  This project is license: ${renderLicenseLink(data.license)}
+  For more information on this license please visit: ${renderLicenseLink(data.license)}
 `;
 }
 
