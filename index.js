@@ -34,7 +34,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Please choose the appropriate license for your project.',
-    Choice: ('mit', 'isc', 'gpl-3.0', 'apache-2.0')
+    Choices: ('mit', 'isc', 'gpl-3.0', 'apache-2.0')
     
 },
 {
