@@ -45,7 +45,7 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'test',
+    name: 'tests',
     message: 'What test have you to your project.',
     
 },
