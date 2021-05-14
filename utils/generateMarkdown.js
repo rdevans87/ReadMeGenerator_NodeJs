@@ -31,7 +31,6 @@ if (license === 'none') {
   
 };
 
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -48,7 +47,6 @@ function generateMarkdown(data) {
   - [Contributing](#contributing)
   - [Tests](#test)
   - [Questions](#questions)
-  
   
   ## Installation
 
@@ -72,12 +70,15 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  ${data.questions}
+  Please contact me with any questions related to this project.
 
-  Github Username: ${data.github}
+  Github Username:${data.github}
 
-  GitHub Email: ${data.email}
+  GitHub Email: [${data.email}](mailto:${data.email})
 
+  GitHub Profile: https://github.com/${data.questions}
+
+  
   ${renderLicenseSection(data.license)}
 
   For more information on this license please visit: ${renderLicenseLink(data.license)}
