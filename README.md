@@ -61,7 +61,7 @@ Here is screenshot of a Sample `README.md` file generated from the application. 
 * A `License Badge` should be displayed below the title of your project matching the open-source license that you selected from the prompt as well as include all the user input that was answered for each section.
 
 
-A video demonstrating the applications functionality available here: [README.md Generator Walkthrough](https://youtu.be/tqT16dvfT4w)
+A video demonstrating the applications functionality is available here: [README.md Generator Walkthrough](https://youtu.be/tqT16dvfT4w)
 
 
 ## Resources
