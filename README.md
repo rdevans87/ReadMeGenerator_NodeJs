@@ -30,7 +30,8 @@ I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
 
-Here is screenshot of a Sample `README.md` file generated from the application. This file is located in the `Sample-README-file` folder: 
+
+Here is a screenshot of a Sample `README.md` file generated from the application. This file is located in the `Sample-README-file` folder: 
 
 <img src="assets/screenshot_readme.png" width="500"/>
 
