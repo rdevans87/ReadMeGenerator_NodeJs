@@ -72,8 +72,11 @@ Because this application won’t be deployed, you’ll also need to provide a li
 
 ## Resources
 
-[Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
+[Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) 
 
+[Shields IO](https://shields.io/category/license)
+
+[Choose a license](https://choosealicense.com/)
 
 ## Grading Requirements: 
 
