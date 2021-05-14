@@ -15,7 +15,7 @@ function renderLicenseLink(license) {
 if (license === 'none') {
  return ''
 } else {
- return  `[License Link](https://choosealicense.com/licenses/${license}/)`
+ return  `[${license} License](https://choosealicense.com/licenses/${license}/)`
 }
 
 };
@@ -26,9 +26,7 @@ function renderLicenseSection(license) {
 if (license === 'none') {
   return ''
 } else {
- return `## License
- ![${license}] License
- `
+ return `## License`
 }
   
 };
@@ -82,7 +80,7 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
 
-  ${renderLicenseLink(data.license)}
+  This project is license: ${renderLicenseLink(data.license)}
 `;
 }
 

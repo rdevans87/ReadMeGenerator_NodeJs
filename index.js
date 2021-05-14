@@ -40,7 +40,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Please choose the appropriate license for your project.',
-    choices: ['MIT', 'ISC', 'GPL-3.0', 'APACHE-2.0'],
+    choices: ['mit', 'isc', 'gpl-3.0', 'apache-2.0'],
     
 },
 {
@@ -91,7 +91,8 @@ function init() {
     .then((responses) => {
         console.log(responses)
         const readMe = generateMarkdown(responses)
-        writeToFile('README.md', readMe)
+        writeToFile('sampleREADME.md', readMe)
+        console.log("README generated")
  
     });
 
