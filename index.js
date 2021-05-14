@@ -34,7 +34,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Please choose the appropriate license for your project.',
-    Choices: ('mit', 'isc', 'gpl-3.0', 'apache-2.0')
+    choices: ['mit', 'isc', 'gpl-3.0', 'apache-2.0'],
     
 },
 {
@@ -88,9 +88,9 @@ function writeToFile(fileName, data) {
 // Function call to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then((responses) => {
-        console.log(responses)
-        const readMe = writeToFile(responses)
+    .then((answered) => {
+        console.log(answered)
+        const readMe = writeToFile(answered)
         writeToFile('README.md', readMe)
  
     })
