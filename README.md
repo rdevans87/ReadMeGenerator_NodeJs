@@ -1,8 +1,8 @@
-# A good readme generator
+# A Good ReadMe Generator
   ![License Badge](https://img.shields.io/badge/License-mit-blueviolet)
 
   ## Description
-  Write 2-3 sentences describing this project.
+  Describe your project in 3-4 sentences
 
   ## Table of Contents
 
@@ -15,33 +15,33 @@
   
   ## Installation
 
-  1.)run npm i inquirer to install dependency  2.) run node index.js to invoke application
+  1.) run npm i inquirer to install dependencies  2.) run node index.js to start application
 
   ## Usage
 
-  please refer to the readme.md file at the root of this repository for a detail walk through demo
+  Please refer to the readme.md file at the root of this repository for a walkthrough video
 
   ## Credits
 
-  sole developer
+  Sole developer
   
   ## Contributing
   
-  fork this repo to start contributing
+  Fork this repo and install node.js to start contributing
 
   ## Tests
 
-  command line tests from terminal
+  command line test from integrated terminal
 
   ## Questions
 
   Please contact me with any questions related to this project.
 
-  Github Username:rdevans87
+  Github Username: rdevans87
 
   GitHub Email: [rdevans87@gmail.com](mailto:rdevans87@gmail.com)
 
-  GitHub Profile: https://github.com/https://github.com/rdevans87
+  GitHub Profile: https://github.com/rdevans87
 
   
   ## License
