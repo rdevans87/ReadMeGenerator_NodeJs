@@ -72,11 +72,11 @@ function generateMarkdown(data) {
 
   Please contact me with any questions related to this project.
 
-  Github Username:${data.github}
+  Github Username: ${data.github}
 
   GitHub Email: [${data.email}](mailto:${data.email})
 
-  GitHub Profile: https://github.com/${data.questions}
+  GitHub Profile: ${data.questions}
 
   
   ${renderLicenseSection(data.license)}
