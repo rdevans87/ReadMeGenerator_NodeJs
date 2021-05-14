@@ -52,7 +52,7 @@ const questions = [
 {
     type: 'input',
     name: 'tests',
-    message: 'What tests have run on your project?',
+    message: 'What tests have been run on your project?',
     
 },
 {
@@ -79,20 +79,21 @@ const questions = [
 
 //Created a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) => {
+  return fs.writeFile(fileName, data, (err) => {
         console.log(err)
-    })
+})
+
 };
 
 // Function call to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then((answered) => {
-        console.log(answered)
-        const readMe = writeToFile(answered)
+    .then((responses) => {
+        console.log(responses)
+        const readMe = writeToFile(responses)
         writeToFile('README.md', readMe)
  
-    })
+    });
 
 };
 
