@@ -33,6 +33,7 @@ if (license === 'none') {
   
 }
 
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -45,6 +46,7 @@ function generateMarkdown(data) {
 
   - [Installation](#installtion)
   - [Usage](#usage)
+  - [Credits](#credits)
   - [Contributing](#contributing)
   - [Tests](#test)
   - [Questions](#questions)
@@ -56,6 +58,10 @@ function generateMarkdown(data) {
   ## Usage
 
   ${data.usage}
+
+  ## Credits
+
+  ${data.credits}
   
   ## Contributing
   
@@ -73,7 +79,7 @@ function generateMarkdown(data) {
   GitHub Email: ${data.email}
 
   ${renderLicenseSection(data.license)}
-  
+
   ${renderLicenseLink(data.license)}
 `;
 }

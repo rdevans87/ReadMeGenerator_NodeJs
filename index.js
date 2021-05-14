@@ -31,6 +31,12 @@ const questions = [
     
 },
 {
+    type: 'input',
+    name: 'credits',
+    message: 'List your collaborators, if any, with links to their GitHub profiles.',
+    
+},
+{
     type: 'list',
     name: 'license',
     message: 'Please choose the appropriate license for your project.',
@@ -46,7 +52,7 @@ const questions = [
 {
     type: 'input',
     name: 'tests',
-    message: 'What test have you to your project.',
+    message: 'What tests have run on your project?',
     
 },
 {
@@ -54,13 +60,6 @@ const questions = [
     name: 'questions',
     message: 'What is the link to your GitHub profile?',
     
-},
-{
-    type: 'input',
-    name: 'contents',
-    message: 'Would you like add a table of contents for this project?',
-
-
 },
 {
     type: 'input',
@@ -80,7 +79,7 @@ const questions = [
 
 //Created a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeToFile(fileName, data, (err) => {
+    fs.writeFile(fileName, data, (err) => {
         console.log(err)
     })
 };
