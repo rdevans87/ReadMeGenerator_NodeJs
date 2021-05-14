@@ -26,8 +26,8 @@ function renderLicenseSection(license) {
 if (license === 'none') {
   return ''
 } else {
- return `#LICENSE
- ![License Section](${license}) 
+ return `## License
+ ![${license}](${license}) License
  `
 }
   
@@ -36,6 +36,13 @@ if (license === 'none') {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)}
+
+  ## Description
+  ${data.description}
+
+  
+
 
 `;
 }
