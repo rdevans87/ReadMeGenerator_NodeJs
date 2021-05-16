@@ -92,6 +92,14 @@ A video demonstrating the applications functionality is available here: [README.
 
 * The URL of the GitHub repository, with a unique name and a README describing the project.
 
+
+## Questions
+ 
+ Email: <a href="mailto:rdevans87@gmail.com">rdevans87@gmail.com</a>
+
+ Github: <a href="https://github.com/rdevans87">rdevans87</a>
+
+
 ## License
 
 For more information on this license please visit: [mit License](https://choosealicense.com/licenses/mit/)
